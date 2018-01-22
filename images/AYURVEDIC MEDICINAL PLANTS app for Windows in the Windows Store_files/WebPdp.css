@@ -1,0 +1,815 @@
+/* - General - */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    margin: 0em auto .0625em auto;
+    font-family: "Segoe UI", Tahoma, Arial, Sans-serif;
+    color: rgb(158, 158, 158);
+    padding: 0;
+    height: 100%;
+}
+
+body a, a, a:visited, a:hover, a:active, a:focus
+{
+    color: rgb(0,138,0);
+}
+
+a
+{
+    outline: none;
+}
+
+html
+{
+    overflow-y: scroll;
+}
+
+img
+{
+    border: none;
+}
+
+ul
+{
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-left: 1.25em;
+}
+
+
+/* - Common - */
+
+#ErrorPanel
+{
+    padding-top: 1.25em;
+    min-height: 37.5em;
+}
+
+
+#Content, #ErrorPanel
+{
+    width: 62.375em;
+    margin: 6em auto;
+    font-size: 1em;
+}
+
+.InlineDirectionLtr
+{
+    display: inline-block;
+    direction: ltr;
+    text-align: right;
+}
+
+.InlineDirectionRtl
+{
+    display: inline-block;
+    direction: rtl;
+    text-align: left;
+}
+
+
+/* - PDP - */
+
+#LeftPanel
+{
+    float: left;
+    vertical-align: top;
+    margin-right: 1.874em;
+}
+
+#LeftContent
+{
+    min-height: 40.625em;
+}
+
+#LeftPanel, #LeftCrop, #LeftContent, #PriceAndRating, #LaunchStore, #BannerRegion, #Promo, #UniversalAppSection
+{
+    width: 14.188em;
+}
+
+#PromoString
+{
+    max-width: 17.556em;
+    white-space: normal;
+}
+
+#Trial, #Promo
+{
+    width: 17.556em;
+}
+
+#Promo
+{
+    display: table-cell;
+}
+
+#Trial
+{
+    display: inline-block;
+}
+
+#ProductStats
+{
+    min-height: 8em;
+    display: table-cell;
+}
+
+.DetailSub
+{
+    margin-top: 1.094em;
+}
+
+#RightPanel
+{
+    float: right;
+    vertical-align: top;
+    margin-bottom: 6.063em;
+}
+
+#RightPanel, #SimilarAppsHeader, #ScreenshotCaption, #ScreenshotView, #SimilarAppsHeaderLabel
+{
+    width: 46.313em;
+}
+
+#OverviewPanel, #DetailsPanel
+{
+    width: 100%;
+    display: table-cell;
+}
+
+#ProductTitle h1
+{
+    color: #454545;
+    font-size: 2.25em;
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+#ErrorPanel h1
+{
+    font-size: 2.25em;
+    color: #707070;
+    letter-spacing: 0.01em;
+    font-weight: normal;
+}
+
+#ContentRatingDescriptorText
+{
+    color: #707070;
+}
+
+#ContentRatingDetails
+{
+    padding-top: .33em;
+    padding-left: .75em;
+    padding-right: .75em;
+    width: 38em;
+}
+
+#ContentRatingSystemIcon img
+{
+    width: 3.13em;
+}
+
+#ContentRatingDescriptorIcons
+{
+    padding-left: .70em;
+    padding-right: .75em;
+}
+
+#ContentRatingDescriptorIcons img
+{
+    vertical-align: top;
+    width: 3em;
+}
+
+#Screenshots
+{
+    display: table-cell;
+}
+
+#ScreenshotsMain
+{
+    background-color: #000000;
+    width: 100%;
+}
+
+#Description, #SimilarAppsSection, #DetailsSection
+{
+    margin-top: 2.625em;
+}
+#ContentRating, #Features, #AppList
+{
+    margin-top: 1.312em;
+}
+
+.AppTileIcon
+{
+    width: 4.25em;
+    height: 4.25em;
+    border: .063em solid rgba(0, 0, 0, 0.1);
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.AppTileIcon img
+{
+    vertical-align: middle;
+    padding: .562em .562em .562em .562em;
+    height: 3.125em;
+    width: 3.125em;
+}
+#StarRating, .StarRating
+{
+    white-space: nowrap;
+    height: 1.1em;
+    width: 4.3em;
+    margin-right: .5em;
+}
+
+#Stars, .Stars
+{
+    height: 1.1em;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+}
+
+#StarOverlay, .StarOverlay
+{
+    position: relative;
+    top: -1.1em;
+    height: 1.1em;
+    opacity: .5;
+    overflow: hidden;
+    z-index: 3;
+    -webkit-transform: translateZ(0);
+}
+
+#StarRating img, .StarRating img
+{
+    height: .750em;
+    margin-right: .11em;
+    z-index: 10;
+    padding-top: .08em;
+    padding-bottom:.11em;
+}
+
+#BannerRegionText
+{
+    color: #454545;
+    background-color: #eeeeee;
+    border: none;
+    line-height: 1.5em;
+    padding: .43em .769em .43em .769em;
+    width: 16.01em;
+}
+#BannerRegionText a, #BannerRegionText a:hover
+{
+    color: #390d9c;
+}
+
+#LaunchStoreButton
+{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0,138,0);
+    padding-right: .313em;
+    padding-left: .625em;
+    padding-top: .313em;
+    padding-bottom: .313em;
+    width: auto;
+}
+
+#LaunchStoreIcon
+{
+    width: 2.25em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#LaunchStoreText
+{
+    font-size: .875em;
+    width: 12.15em;
+    text-align: left;
+    padding-left: .25em;
+    padding-right: .25em;
+    white-space: normal;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Rating
+{
+    height: 1em;
+    display: inline-block;
+    padding-top: .15em;
+}
+
+div#RatingText, div.RatingText
+{
+    width: 6.25em;
+    height: 1.25em;
+    padding-left: .313em;
+    padding-top: .313em;
+}
+
+
+#DetailsDivider
+{
+    margin-bottom: 1em;
+}
+
+.SectionHeader
+{
+    font-weight: lighter;
+}
+
+.SectionDivider
+{
+    float: left;
+    width: 100%;
+    background-color: rgb(237, 237, 240);
+    height: .188em;
+    margin-top: .313em;
+}
+
+#DetailsLeftColumn, #SimilarAppsLeft
+{
+    float: left;
+    width: 22.188em;
+    margin-right: 1.875em;
+}
+
+#DetailsRightColumn, #SimilarAppsRight
+{
+    float: left;
+    width: 22.25em;
+}
+
+#SimilarAppsSection
+{
+    clear: both;
+}
+
+#TitleDivider
+{
+    margin-bottom: 1.313em;
+}
+
+
+.SubSectionHeaderFont, .TilePriceFont, .AppTileTitle
+{
+    font-size: 1em;
+    color: #454545;
+}
+
+.SectionHeaderFont
+{
+    font-size: 1em;
+}
+
+.SectionFont, .SectionFontDark
+{
+    padding-top: .2em;
+    line-height: 1.5em;
+}
+
+.SectionFont, .SectionFontDark, .Font /* fontsize P13/20 */
+{
+    font-size: .813em;
+}
+
+.SectionFont, .SectionHeaderFont, .Font
+{
+    color: #777777;
+}
+
+.SectionFontDark
+{
+    color: #454545;
+}
+
+.RatingTextInline
+{
+    position: relative;
+    float: left;
+    margin-top: .05em;
+}
+
+.AppTileInfo .RatingTextInline
+{
+    max-width: 4.78em;
+}
+.AppTileWideInfo .RatingTextInline
+{
+    max-width: 6.95em;
+}
+
+#PriceAndRating
+{
+    margin-top: 1.313em;
+    margin-bottom: 0.1em;
+    display: inline-block;
+}
+
+#MainPrice, #MainStars, .Rating
+{
+    display: table-cell;
+}
+
+#MainStars .RatingTextInline
+{
+    max-width: 11.07em;
+}
+
+#MainStars
+{
+    margin-top: .52em;
+}
+
+.FloatPrice, #Price, #PromoPrice
+{
+    float: left;
+    padding-right: .5em;
+}
+
+.AppTileWideInfo .TilePriceFont
+{
+    max-width: 6.2em;
+}
+
+#MainPrice, #PromoPrice
+{
+    font-size: 1.5em;
+}
+#MainPrice
+{
+    color: #454545;
+}
+.MainPriceSale
+{
+    text-decoration: line-through;
+}
+
+#PromoPrice, #PromoString, .PriceSale
+{
+    color: #D60821
+}
+#Architectures, #Languages, #Accessibility, #ReleaseNotes, #Requirements, #LearnMore, #AdditionalTerms
+{
+    margin-bottom: 2em;
+}
+
+#ScreenshotImageButtons
+{
+    margin-top: .625em;
+}
+
+#ScreenshotImageButtons a, .imageButton
+{
+    width: 4.46em;
+    text-align: center;
+}
+
+#ScreenshotImageButtons img, #ScreenshotImageButtons a, .imageButton
+{
+    height: 2.5em;
+}
+
+#ScreenshotCaption
+{
+    height: 2em;
+}
+
+#NavButtons
+{
+    padding-top: .417em;
+    padding-right: .333em;
+    padding-left: .333em;
+    font-size: .75em;
+}
+
+#AppListItems
+{
+    padding-top: .5625em;
+}
+
+#ImageCaption
+{
+    width: 37.5em;
+    height: 2em;
+}
+
+#ImageCaptionText
+{
+    margin-top: .8em;
+    margin-left: .8em;
+    margin-right: .8em;
+    font-size: .75em;
+}
+
+#ScreenshotView
+{
+    border-top: .0625em solid rgb(229, 229, 229);
+    border-left: .0625em solid rgb(229, 229, 229);
+    border-right: .0625em solid rgb(229, 229, 229);
+    text-align: center;
+    padding: 0em;
+    margin: 0em;
+    height: 26em;
+    width: 46.19em;
+}
+
+#ScreenshotView img
+{
+    border: 0em;
+    height: 26em;
+    max-width: 46.188em;
+}
+
+.navButton
+{
+    width: 2.17em;
+    height: 1.92em;
+    display: block;
+}
+
+.imageNextPrevButton img
+{
+    border: 0;
+    width: 2.17em;
+    height: 1.92em;
+}
+
+.readMoreText
+{
+    overflow: hidden;
+    padding-top: 0em;
+}
+
+.readMoreTextTrunc
+{
+    max-height: 17.9em; /* 12 [lines] * 1.5 [Section-lineheight] */
+}
+
+.readMoreButton
+{
+    display: none;
+}
+
+#LanguagesToggle a, .readMoreButton
+{
+    font-size: .8em;
+    color: rgb(0,138,0);
+    margin-top: 0em;
+}
+
+#SimilarAppsHeaderStoreLink a, #AppsByDevStore a
+{
+    font-size: 1em;
+}
+
+#AppsByDev, #LaunchStore, #BannerRegion
+{
+    margin-top: 2.19em;
+}
+
+.imageButton
+{
+    margin-left: .63em;
+    cursor: pointer;
+    border: 1px solid rgb(229,229,229);
+}
+.imageButton:first-child
+{
+    margin-left: 0em;
+}
+
+.imageButtonSelected
+{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.hidden
+{
+    display: none;
+}
+
+.clearFloat
+{
+    clear: both;
+}
+
+.appListItemDivider
+{
+    clear: both;
+    height: 1em;
+}
+
+.appListItemText
+{
+    color: #2a2a2a;
+    letter-spacing: 0.01em;
+    width: 31em;
+    line-height: 1.5em;
+}
+
+.appListItemTextBlock
+{
+    font-size: 1.25em;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .125em;
+}
+
+.appListItemImage
+{
+    width: 2.625em;
+    height: 2.625em;
+    border: .0625em solid #a1a1a1;
+}
+
+.appListItemImage img
+{
+    margin-top: .3125em;
+    margin-left: .3125em;
+    margin-right: .3125em;
+    width: 2em;
+    height: 2em;
+}
+
+.floatLeft
+{
+    float: left;
+}
+
+.floatRight
+{
+    float: right;
+}
+
+.noTruncText
+{
+    display: inline-block;
+    white-space: normal;
+}
+
+.truncText
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.truncTextWrap
+{
+    white-space: normal;
+}
+
+.truncTextWrap .truncTextBlockWrap
+{
+    display: inline;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.truncTextBlockWrap
+{
+    display: inline-block;
+    width: 100%;
+}
+
+.truncTextWrapLabel
+{
+    margin-right: .5em;
+}
+
+a
+{
+    color: #00749e;
+    text-decoration: none;
+}
+
+.readMoreBlock a
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div.AppTileIconDiv
+{
+    float: left;
+    margin-right: .625em;
+}
+
+.AppTileIcon span
+{
+    display: inline-block;
+}
+
+div.AppTile
+{
+    margin-top: 1.25em;
+}
+.AppTileLink, div.AppTile
+{
+    height: 4.375em;
+}
+.AppTileLink
+{
+    display: block;
+}
+
+.AppTileInfo .AppTileStarRating
+{
+}
+.AppTileWideInfo, .AppTileWideInfo .AppTileTitle, .AppTileWideInfo .AppTileStarRating, .AppTileWideInfo .AppTileCat
+{
+    width: 17.168em;
+}
+
+#AppsByDev .AppTile
+{
+    width: 13.73em;
+}
+
+.AppTileStarRating
+{
+    height: 1.4em;
+    display: table-cell;
+}
+
+#EulaBody
+{
+    display: none;
+}
+
+
+#FooterWrapper
+{
+    display: inline-block;
+    min-width: 62.375em;
+    width: 100%;
+}
+
+#FooterText
+{
+    padding-top: 0px;
+    padding-bottom: 11px;
+}
+
+#AppsByDevSection
+{
+	white-space: normal;
+}
+
+
+.HighContrastButtonDarkBg
+{
+    border: .1em solid white;
+}
+
+.HighContrastButtonLightBg
+{
+    border: .1em solid black;
+}
+
+
+.PromoStringSmall
+{
+    padding-top: .8em;
+}
+
+#MainUniversalApp
+{
+    float: left;
+    padding-right: .75em;
+    margin-top: .7em;
+}
+
+#UniversalAppSection
+{
+    margin-top: 1.438em;
+}
+#UniversalAppIcon
+{
+    display: table-cell;
+    padding-right: .4em;
+    padding-top: .1em;
+}
+#UniversalAppText
+{
+    display: table-cell;
+    padding-top: 0;
+    vertical-align: top;
+}

@@ -1,0 +1,56 @@
+﻿body		{ font-size: 9pt;
+			  font-family: verdana, arial, helvetica, sans-serif;
+			  background-color: #CCFFCC
+			}
+
+table	{ font-size: 9pt; font-family: verdana, arial, helvetica, sans-serif }
+td		{ font-size: 9pt; font-family: verdana, arial, helvetica, sans-serif }
+p		{ font-size: 9pt; font-family: verdana, arial, helvetica, sans-serif }
+ul		{ font-size: 9pt; font-family: verdana, arial, helvetica, sans-serif }
+h1		{ font-size: 14pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif }
+h3		{ font-size: 12pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif }
+
+A:active
+{
+    FONT-WEIGHT: regular;
+    COLOR: #660066;
+    TEXT-DECORATION: underline
+}
+A:link
+{
+    FONT-WEIGHT: regular;
+    COLOR: #660066;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    FONT-WEIGHT: regular;
+    COLOR: #CC6633;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    FONT-WEIGHT: regular;
+    COLOR: #CC6633;
+    TEXT-DECORATION: underline
+}
+.border_four_sides {
+	BORDER-RIGHT: #006600 1px solid;
+	BORDER-TOP: #006600 1px solid;
+	BORDER-LEFT: #006600 1px solid;
+	BORDER-BOTTOM: #006600 1px solid;
+}
+SPAN.heading {
+	COLOR: #006600
+}
+.greentitles {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #006600;
+	letter-spacing: 0px;
+}
+.green {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #006600;
+	letter-spacing: 0px;
+}
